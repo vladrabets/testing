@@ -3,7 +3,7 @@ const Page = require('./BasePage')
 class VetlivaHomePage extends Page {
 
     static HOME_PAGE = 'https://vetliva.ru/'
-    static xPathLocator = "/html/body/div[1]/div/div[3]/div[3]/div[2]/div[2]/div[1]/div[1]"
+    static xPathLocator = "//div[@class='.b24-widget-button-inner-item']"
 
     constructor(driver) {
         super(driver);

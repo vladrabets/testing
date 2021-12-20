@@ -13,7 +13,7 @@ describe('Vetliva home page', () => {
         vetlivaHomePage = new VetlivaHomePage(driver).openHomePage()
     })
 
-    it('Should show empty input error', async () => {
+    it('Should show feedback panel', async () => {
         try {
             const isVisible = await vetlivaHomePage
                 .clickElement()

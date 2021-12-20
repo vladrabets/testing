@@ -1,7 +1,7 @@
 const {until, By} =  require("selenium-webdriver");
 
 class BasePage {
-    static xPathVisible = "//*[@id=\"b24-b24-site-button-form-195\"]/div/div[2]/div/div/div[2]"
+    static xPathVisible = "//div[@class='b24-form-wrapper b24-form-border-bottom']"
 
     constructor(driver) {
         this.driver = driver

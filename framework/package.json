@@ -1,0 +1,27 @@
+{
+  "name": "framework",
+  "version": "1.0.0",
+  "description": "package",
+  "main": "searchCase1.js",
+  "dependencies": {
+    "chai": "^4.3.4",
+    "mocha": "^9.1.3",
+    "selenium-webdriver": "^4.0.0",
+    "winston": "^3.3.3"
+  },
+  "scripts": {
+    "test": "jest --testTimeout=25000 --config=src/specs/setup/dev.chrome.js",
+    "test:home": "jest src/specs/VetlivaHomePage.spec.js --testTimeout=30000 --config=src/specs/setup/dev.chrome.js",
+    "test:booking": "jest src/specs/VetlivaSanatoriesPage.spec.js --testTimeout=30000 --config=src/specs/setup/dev.chrome.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vladrabets/testing"
+  },
+  "author": "Vladislav Rabets",
+  "license": "ISC",
+  "devDependencies": {
+    "chromedriver": "^96.0.0",
+    "jest": "^27.4.5"
+  }
+}

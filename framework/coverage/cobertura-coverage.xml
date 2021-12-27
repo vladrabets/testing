@@ -1,0 +1,408 @@
+<?xml version="1.0" ?>
+<!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
+<coverage lines-valid="133" lines-covered="110" line-rate="0.8270000000000001" branches-valid="7" branches-covered="3" branch-rate="0.4285" timestamp="1640543355407" complexity="0" version="0.1">
+  <sources>
+    <source>D:\testing\testing\framework</source>
+  </sources>
+  <packages>
+    <package name="driver" line-rate="0.8076000000000001" branch-rate="0.4285">
+      <classes>
+        <class name="DriverManager.js" filename="src\driver\DriverManager.js" line-rate="0.8076000000000001" branch-rate="0.4285">
+          <methods>
+            <method name="(anonymous_0)" hits="3" signature="()V">
+              <lines>
+                <line number="10" hits="3"/>
+              </lines>
+            </method>
+            <method name="(anonymous_1)" hits="3" signature="()V">
+              <lines>
+                <line number="27" hits="3"/>
+              </lines>
+            </method>
+            <method name="(anonymous_2)" hits="3" signature="()V">
+              <lines>
+                <line number="32" hits="3"/>
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="1" hits="2" branch="false"/>
+            <line number="2" hits="2" branch="false"/>
+            <line number="3" hits="2" branch="false"/>
+            <line number="4" hits="2" branch="false"/>
+            <line number="5" hits="2" branch="false"/>
+            <line number="11" hits="3" branch="true" condition-coverage="50% (1/2)"/>
+            <line number="12" hits="3" branch="true" condition-coverage="33.33333333333333% (1/3)"/>
+            <line number="14" hits="3" branch="false"/>
+            <line number="15" hits="3" branch="false"/>
+            <line number="17" hits="0" branch="false"/>
+            <line number="18" hits="0" branch="false"/>
+            <line number="20" hits="0" branch="false"/>
+            <line number="24" hits="3" branch="false"/>
+            <line number="28" hits="3" branch="false"/>
+            <line number="29" hits="3" branch="false"/>
+            <line number="33" hits="3" branch="false"/>
+            <line number="36" hits="3" branch="true" condition-coverage="50% (1/2)"/>
+            <line number="38" hits="3" branch="false"/>
+            <line number="42" hits="3" branch="false"/>
+            <line number="44" hits="0" branch="false"/>
+            <line number="47" hits="0" branch="false"/>
+            <line number="50" hits="3" branch="false"/>
+            <line number="51" hits="3" branch="false"/>
+            <line number="53" hits="3" branch="false"/>
+            <line number="55" hits="3" branch="false"/>
+            <line number="59" hits="2" branch="false"/>
+          </lines>
+        </class>
+      </classes>
+    </package>
+    <package name="model" line-rate="0.7142000000000001" branch-rate="1">
+      <classes>
+        <class name="PriceFrom.js" filename="src\model\PriceFrom.js" line-rate="0.7142000000000001" branch-rate="1">
+          <methods>
+            <method name="(anonymous_0)" hits="1" signature="()V">
+              <lines>
+                <line number="2" hits="1"/>
+              </lines>
+            </method>
+            <method name="(anonymous_1)" hits="1" signature="()V">
+              <lines>
+                <line number="7" hits="1"/>
+              </lines>
+            </method>
+            <method name="(anonymous_2)" hits="0" signature="()V">
+              <lines>
+                <line number="11" hits="0"/>
+              </lines>
+            </method>
+            <method name="(anonymous_3)" hits="1" signature="()V">
+              <lines>
+                <line number="15" hits="1"/>
+              </lines>
+            </method>
+            <method name="(anonymous_4)" hits="0" signature="()V">
+              <lines>
+                <line number="19" hits="0"/>
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="3" hits="1" branch="false"/>
+            <line number="4" hits="1" branch="false"/>
+            <line number="8" hits="1" branch="false"/>
+            <line number="12" hits="0" branch="false"/>
+            <line number="16" hits="1" branch="false"/>
+            <line number="20" hits="0" branch="false"/>
+            <line number="24" hits="1" branch="false"/>
+          </lines>
+        </class>
+      </classes>
+    </package>
+    <package name="pages" line-rate="0.7777" branch-rate="1">
+      <classes>
+        <class name="AirbnbBookingsPage.js" filename="src\pages\AirbnbBookingsPage.js" line-rate="1" branch-rate="1">
+          <methods>
+            <method name="(anonymous_0)" hits="3" signature="()V">
+              <lines>
+                <line number="19" hits="3"/>
+              </lines>
+            </method>
+            <method name="(anonymous_1)" hits="3" signature="()V">
+              <lines>
+                <line number="23" hits="3"/>
+              </lines>
+            </method>
+            <method name="(anonymous_2)" hits="3" signature="()V">
+              <lines>
+                <line number="24" hits="3"/>
+              </lines>
+            </method>
+            <method name="(anonymous_3)" hits="1" signature="()V">
+              <lines>
+                <line number="32" hits="1"/>
+              </lines>
+            </method>
+            <method name="(anonymous_4)" hits="1" signature="()V">
+              <lines>
+                <line number="37" hits="1"/>
+              </lines>
+            </method>
+            <method name="(anonymous_5)" hits="1" signature="()V">
+              <lines>
+                <line number="44" hits="1"/>
+              </lines>
+            </method>
+            <method name="(anonymous_6)" hits="1" signature="()V">
+              <lines>
+                <line number="56" hits="1"/>
+              </lines>
+            </method>
+            <method name="(anonymous_7)" hits="1" signature="()V">
+              <lines>
+                <line number="62" hits="1"/>
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="1" hits="1" branch="false"/>
+            <line number="2" hits="1" branch="false"/>
+            <line number="3" hits="1" branch="false"/>
+            <line number="4" hits="1" branch="false"/>
+            <line number="7" hits="1" branch="false"/>
+            <line number="8" hits="1" branch="false"/>
+            <line number="9" hits="1" branch="false"/>
+            <line number="10" hits="1" branch="false"/>
+            <line number="12" hits="1" branch="false"/>
+            <line number="13" hits="1" branch="false"/>
+            <line number="14" hits="1" branch="false"/>
+            <line number="16" hits="1" branch="false"/>
+            <line number="17" hits="1" branch="false"/>
+            <line number="20" hits="3" branch="false"/>
+            <line number="24" hits="3" branch="false"/>
+            <line number="25" hits="3" branch="false"/>
+            <line number="28" hits="3" branch="false"/>
+            <line number="29" hits="3" branch="false"/>
+            <line number="33" hits="1" branch="false"/>
+            <line number="34" hits="1" branch="false"/>
+            <line number="38" hits="1" branch="false"/>
+            <line number="40" hits="1" branch="false"/>
+            <line number="41" hits="1" branch="false"/>
+            <line number="45" hits="1" branch="false"/>
+            <line number="47" hits="1" branch="false"/>
+            <line number="49" hits="1" branch="false"/>
+            <line number="50" hits="1" branch="false"/>
+            <line number="52" hits="1" branch="false"/>
+            <line number="53" hits="1" branch="false"/>
+            <line number="57" hits="1" branch="false"/>
+            <line number="58" hits="1" branch="false"/>
+            <line number="59" hits="1" branch="false"/>
+            <line number="63" hits="1" branch="false"/>
+            <line number="67" hits="1" branch="false"/>
+          </lines>
+        </class>
+        <class name="AirbnbExperiencesPage.js" filename="src\pages\AirbnbExperiencesPage.js" line-rate="0.625" branch-rate="1">
+          <methods>
+            <method name="(anonymous_0)" hits="0" signature="()V">
+              <lines>
+                <line number="8" hits="0"/>
+              </lines>
+            </method>
+            <method name="(anonymous_1)" hits="0" signature="()V">
+              <lines>
+                <line number="12" hits="0"/>
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="1" hits="1" branch="false"/>
+            <line number="2" hits="1" branch="false"/>
+            <line number="3" hits="1" branch="false"/>
+            <line number="6" hits="1" branch="false"/>
+            <line number="9" hits="0" branch="false"/>
+            <line number="13" hits="0" branch="false"/>
+            <line number="14" hits="0" branch="false"/>
+            <line number="18" hits="1" branch="false"/>
+          </lines>
+        </class>
+        <class name="BasePage.js" filename="src\pages\BasePage.js" line-rate="1" branch-rate="1">
+          <methods>
+            <method name="(anonymous_0)" hits="3" signature="()V">
+              <lines>
+                <line number="5" hits="3"/>
+              </lines>
+            </method>
+            <method name="(anonymous_1)" hits="1" signature="()V">
+              <lines>
+                <line number="9" hits="1"/>
+              </lines>
+            </method>
+            <method name="(anonymous_2)" hits="11" signature="()V">
+              <lines>
+                <line number="13" hits="11"/>
+              </lines>
+            </method>
+            <method name="(anonymous_3)" hits="2" signature="()V">
+              <lines>
+                <line number="17" hits="2"/>
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="1" hits="2" branch="false"/>
+            <line number="6" hits="3" branch="false"/>
+            <line number="10" hits="1" branch="false"/>
+            <line number="14" hits="11" branch="false"/>
+            <line number="18" hits="2" branch="false"/>
+            <line number="19" hits="2" branch="false"/>
+            <line number="20" hits="2" branch="false"/>
+            <line number="24" hits="2" branch="false"/>
+          </lines>
+        </class>
+        <class name="VetlivaHomePage.js" filename="src\pages\VetlivaHomePage.js" line-rate="0.409" branch-rate="1">
+          <methods>
+            <method name="(anonymous_0)" hits="0" signature="()V">
+              <lines>
+                <line number="13" hits="0"/>
+              </lines>
+            </method>
+            <method name="(anonymous_1)" hits="0" signature="()V">
+              <lines>
+                <line number="17" hits="0"/>
+              </lines>
+            </method>
+            <method name="(anonymous_2)" hits="0" signature="()V">
+              <lines>
+                <line number="18" hits="0"/>
+              </lines>
+            </method>
+            <method name="(anonymous_3)" hits="0" signature="()V">
+              <lines>
+                <line number="26" hits="0"/>
+              </lines>
+            </method>
+            <method name="(anonymous_4)" hits="0" signature="()V">
+              <lines>
+                <line number="31" hits="0"/>
+              </lines>
+            </method>
+            <method name="(anonymous_5)" hits="0" signature="()V">
+              <lines>
+                <line number="38" hits="0"/>
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="1" hits="1" branch="false"/>
+            <line number="2" hits="1" branch="false"/>
+            <line number="3" hits="1" branch="false"/>
+            <line number="4" hits="1" branch="false"/>
+            <line number="7" hits="1" branch="false"/>
+            <line number="8" hits="1" branch="false"/>
+            <line number="9" hits="1" branch="false"/>
+            <line number="10" hits="1" branch="false"/>
+            <line number="11" hits="1" branch="false"/>
+            <line number="14" hits="0" branch="false"/>
+            <line number="18" hits="0" branch="false"/>
+            <line number="19" hits="0" branch="false"/>
+            <line number="22" hits="0" branch="false"/>
+            <line number="23" hits="0" branch="false"/>
+            <line number="27" hits="0" branch="false"/>
+            <line number="28" hits="0" branch="false"/>
+            <line number="32" hits="0" branch="false"/>
+            <line number="33" hits="0" branch="false"/>
+            <line number="35" hits="0" branch="false"/>
+            <line number="39" hits="0" branch="false"/>
+            <line number="40" hits="0" branch="false"/>
+            <line number="41" hits="0" branch="false"/>
+          </lines>
+        </class>
+      </classes>
+    </package>
+    <package name="service" line-rate="1" branch-rate="1">
+      <classes>
+        <class name="DataReader.js" filename="src\service\DataReader.js" line-rate="1" branch-rate="1">
+          <methods>
+            <method name="(anonymous_0)" hits="3" signature="()V">
+              <lines>
+                <line number="5" hits="3"/>
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="1" hits="1" branch="false"/>
+            <line number="2" hits="1" branch="false"/>
+            <line number="6" hits="3" branch="false"/>
+            <line number="7" hits="3" branch="false"/>
+            <line number="11" hits="1" branch="false"/>
+          </lines>
+        </class>
+        <class name="PriceFormService.js" filename="src\service\PriceFormService.js" line-rate="1" branch-rate="1">
+          <methods>
+            <method name="(anonymous_0)" hits="1" signature="()V">
+              <lines>
+                <line number="8" hits="1"/>
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="1" hits="1" branch="false"/>
+            <line number="2" hits="1" branch="false"/>
+            <line number="5" hits="1" branch="false"/>
+            <line number="6" hits="1" branch="false"/>
+            <line number="9" hits="1" branch="false"/>
+            <line number="16" hits="1" branch="false"/>
+          </lines>
+        </class>
+      </classes>
+    </package>
+    <package name="specs.setup" line-rate="1" branch-rate="1">
+      <classes>
+        <class name="dev.chrome.js" filename="src\specs\setup\dev.chrome.js" line-rate="1" branch-rate="1">
+          <methods>
+          </methods>
+          <lines>
+            <line number="1" hits="2" branch="false"/>
+          </lines>
+        </class>
+      </classes>
+    </package>
+    <package name="utils" line-rate="1" branch-rate="1">
+      <classes>
+        <class name="get-data.js" filename="src\utils\get-data.js" line-rate="1" branch-rate="1">
+          <methods>
+            <method name="(anonymous_0)" hits="3" signature="()V">
+              <lines>
+                <line number="3" hits="3"/>
+              </lines>
+            </method>
+            <method name="getData" hits="3" signature="()V">
+              <lines>
+                <line number="5" hits="3"/>
+              </lines>
+            </method>
+            <method name="(anonymous_2)" hits="21" signature="()V">
+              <lines>
+                <line number="10" hits="21"/>
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="1" hits="1" branch="false"/>
+            <line number="3" hits="3" branch="false"/>
+            <line number="6" hits="3" branch="false"/>
+            <line number="7" hits="3" branch="false"/>
+            <line number="11" hits="21" branch="false"/>
+            <line number="12" hits="21" branch="false"/>
+            <line number="13" hits="21" branch="false"/>
+            <line number="17" hits="1" branch="false"/>
+          </lines>
+        </class>
+        <class name="logger.js" filename="src\utils\logger.js" line-rate="1" branch-rate="1">
+          <methods>
+            <method name="(anonymous_0)" hits="6" signature="()V">
+              <lines>
+                <line number="6" hits="6"/>
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="1" hits="2" branch="false"/>
+            <line number="3" hits="2" branch="false"/>
+            <line number="7" hits="6" branch="false"/>
+            <line number="8" hits="6" branch="false"/>
+            <line number="9" hits="6" branch="false"/>
+            <line number="19" hits="2" branch="false"/>
+          </lines>
+        </class>
+        <class name="options-flags.js" filename="src\utils\options-flags.js" line-rate="1" branch-rate="1">
+          <methods>
+          </methods>
+          <lines>
+            <line number="1" hits="2" branch="false"/>
+            <line number="11" hits="2" branch="false"/>
+          </lines>
+        </class>
+      </classes>
+    </package>
+  </packages>
+</coverage>
